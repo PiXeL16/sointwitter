@@ -19,6 +19,7 @@
     return @{
              @"text":@"text",
              @"user":@"user",
+             @"createdAt":@"created_at",
              };
 }
 

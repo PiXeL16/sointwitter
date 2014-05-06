@@ -24,6 +24,7 @@
 		10A19BE919073D3C008F33B3 /* MTweets.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A19BE819073D3C008F33B3 /* MTweets.m */; };
 		10A19BEC19073D5F008F33B3 /* MUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A19BEB19073D5F008F33B3 /* MUser.m */; };
 		10A19BEF19073EF6008F33B3 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A19BEE19073EF6008F33B3 /* MainTableViewController.m */; };
+		10A19BF5191078A5008F33B3 /* TweetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A19BF4191078A5008F33B3 /* TweetDetailViewController.m */; };
 		BC6D9B73449C432B863C7FA1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E109D6244AC24B6687A276D7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		10A19BEB19073D5F008F33B3 /* MUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUser.m; sourceTree = "<group>"; };
 		10A19BED19073EF6008F33B3 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		10A19BEE19073EF6008F33B3 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		10A19BF3191078A5008F33B3 /* TweetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDetailViewController.h; sourceTree = "<group>"; };
+		10A19BF4191078A5008F33B3 /* TweetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetDetailViewController.m; sourceTree = "<group>"; };
 		DAD25A15FB414856B0C283D6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E109D6244AC24B6687A276D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -135,6 +138,8 @@
 				10A19BB519073965008F33B3 /* Supporting Files */,
 				10A19BED19073EF6008F33B3 /* MainTableViewController.h */,
 				10A19BEE19073EF6008F33B3 /* MainTableViewController.m */,
+				10A19BF3191078A5008F33B3 /* TweetDetailViewController.h */,
+				10A19BF4191078A5008F33B3 /* TweetDetailViewController.m */,
 			);
 			path = twitterSOIN;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 				10A19BEC19073D5F008F33B3 /* MUser.m in Sources */,
 				10A19BE619073CE6008F33B3 /* MTweet.m in Sources */,
 				10A19BEF19073EF6008F33B3 /* MainTableViewController.m in Sources */,
+				10A19BF5191078A5008F33B3 /* TweetDetailViewController.m in Sources */,
 				10A19BBF19073965008F33B3 /* AppDelegate.m in Sources */,
 				10A19BBB19073965008F33B3 /* main.m in Sources */,
 				10A19BE919073D3C008F33B3 /* MTweets.m in Sources */,

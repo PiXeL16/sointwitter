@@ -11,6 +11,7 @@
 #import "MUser.h"
 #import <AFNetworking/UIImageView+AFNetworking.h>
 #import <SVProgressHUD.h>
+#import "TweetDetailViewController.h"
 
 @interface MainTableViewController ()
 
@@ -73,6 +74,19 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    
+    MTweet * tweet =  [self.tweets.tweets objectAtIndex:indexPath.row];
+    
+    TweetDetailViewController * detail =  segue.destinationViewController;
+   
+    detail.tweet = tweet;
+ 
 }
 
 #pragma mark - Table view data source

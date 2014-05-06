@@ -14,6 +14,10 @@
 @interface MTweet : MTLModel<MTLJSONSerializing>
 
 @property (copy, nonatomic) NSString * text;
+@property (copy,nonatomic) NSString * createdAt;
 @property (strong , nonatomic) MUser * user;
+
+
+//created_at":"Tue Apr 29 22:00:24 +0000 2014",
 
 @end
